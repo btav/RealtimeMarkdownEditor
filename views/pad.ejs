@@ -1,0 +1,23 @@
+<!-- views/pad.ejs -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Realtime Markdown Viewer</title>
+		<link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	
+	<body class="container-fluid">
+		<section class="row">
+			<textarea class="col-md-6 full-height" id="pad">Write your text here...</textarea>
+			<div class="col-md-6 full-height" id="markdown"></div> 
+		</section>
+		
+		<script src="libs/showdown/dist/showdown.min.js"></script>
+		<script src="/channel/bcsocket.js"></script>
+		<script src="/share/share.uncompressed.js"></script>
+		<script src="/share/textarea.js"></script>
+		<script src="js/app.js"></script>
+
+	</body>
+</html>

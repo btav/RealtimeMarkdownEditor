@@ -1,0 +1,17 @@
+{
+  "name": "RealtimeMarkdownEditor",
+  "version": "1.0.0",
+  "description": "Real-time markdown viewer",
+  "main": "server.js",
+  "author": "Brian Farias Tavares",
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "redis": "^0.10.3",
+    "share": "^0.6.3"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  }
+}
