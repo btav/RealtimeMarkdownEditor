@@ -10,8 +10,9 @@ Type your markdown into the box on the left and immediately see if on the box on
 2. cd RealtimeMarkdownEditor
 3. npm install
 4. bower install
-5. node server.js
-6. Type anything after the slash in "http://localhost:3000" and just start creating markdown. 
+5. Run a redis server.
+6. node server.js
+7. Type anything after the slash in "http://localhost:3000" and just start creating markdown. 
 
 ### How was this built?
 
